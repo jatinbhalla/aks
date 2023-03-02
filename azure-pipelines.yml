@@ -29,7 +29,7 @@ steps:
   displayName: 'Run services'
   inputs:
     containerregistrytype: 'Azure Container Registry'
-    azureSubscription: 'Pay-As-You-Go(9112ff5f-1a9e-411d-b35f-4ec8bd46878a)'
+    azureSubscription: 'Pay-As-You-Go(1)(9112ff5f-1a9e-411d-b35f-4ec8bd46878a)'
     azureContainerRegistry: '{"loginServer":"acrnew1234.azurecr.io", "id" : "/subscriptions/9112ff5f-1a9e-411d-b35f-4ec8bd46878a/resourceGroups/akshandsonlab/providers/Microsoft.ContainerRegistry/registries/acrnew1234"}'
     dockerComposeFile: 'docker-compose.ci.build.yml'
     action: 'Run services'
